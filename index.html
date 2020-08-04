@@ -22,7 +22,7 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 aligh-self-center">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
                 </div>
                 <div class="col">
@@ -95,6 +95,45 @@
                     <div class="media-body align-self-center">
                         <h3>Bootstrap Outfitters</h3>
                         <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-title bg-info text-white">Reserve a Campsite</h3>
+                    <div class="card-body">
+                        <form id="reserveForm">
+                            <div class="row form-group">
+                                <div class="col">
+                                    <label for="numCampers" class="col col-sm-6 col-form-label">Number of Campers</label>
+                                    <div class="col col-sm-6">
+                                        <select name="numCampers" id="numCampers" class="col-sm form-control">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label class="col-sm-6 col-form-label">Date</label>
+                                    <div class="col-sm-6">
+                                        <input type="date" id="date" name="date" placeholder="01/01/2020" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
