@@ -1,5 +1,5 @@
 body {
-    font-family: "open Sans", sans-serif;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
 h1, h2, h3 {
@@ -22,7 +22,7 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #563700, #3046c5, #601068);
+    background-image: linear-gradient(to right, #560000, #30c550, #68101f);
     color: white;
 }
 
@@ -33,7 +33,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901cad;
+    background-color: #1ca8ad;
 }
 
 .tab-content {
@@ -48,4 +48,9 @@ header h2 {
 
 .carousel {
     border: solid #5637DD;
+}
+
+#reserveButton {
+    text-shadow: 2px 2px black;
+    box-shadow: 4px 4px;
 }
